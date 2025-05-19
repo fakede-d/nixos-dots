@@ -47,9 +47,9 @@
     swayidle = ./services/gtklock;
 
     # terminal
-    helix = ./terminal/helix;
+ #   helix = ./terminal/helix;
     starship = ./terminal/starship;
-    zsh = ./terminal/zsh;
+#    zsh = ./terminal/zsh;
     broot = ./terminal/broot;
     tmux = ./terminal/tmux;
     zellij = ./terminal/zellij;
