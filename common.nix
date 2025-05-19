@@ -15,8 +15,8 @@
     eww
     pkgs.dconf-editor # to find gnome keybinds
     pkgs.gnome-tweaks
-    gnome.nautilus
-    gnome.zenity
+    pkgs.nautilus
+    pkgs.zenity
     jq # JSON parsing
     killall
     kitty
