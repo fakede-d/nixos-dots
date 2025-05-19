@@ -1,0 +1,45 @@
+.separator {
+    min-width: 8px;
+    min-height: 5px;
+}
+
+.notification image {
+    color: #fff;
+    margin-left: 1em;
+}
+
+.battery {
+    .low {
+        color: #E685A1;
+    }
+    .high {
+        color: $f1;
+    }
+}
+
+.audio-button {
+    color: $f1;
+    margin: 0px 6px;
+}
+
+.clock {
+    margin-right: 6px;
+}
+
+progress, highlight {
+    background-color: aqua;
+    min-height: 8px;
+}
+
+.caps {
+    margin: 0px 5px;
+    padding: 0px 5px;
+}
+
+.caps.caps-on {
+    background-color: #E685A1;
+    color: #000;
+}
+
+.caps.caps-off {
+}

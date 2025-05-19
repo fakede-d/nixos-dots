@@ -1,0 +1,29 @@
+@import "./variables.scss";
+
+.command-runner {
+    .menu {
+        min-width: 400px;
+        .command-runner-search {
+            min-height: $bar-height;
+            .prefix {
+                margin-right: 2px;
+            }
+            entry {
+                all: unset;
+                border-radius: 0px;
+                // background-color: #1A1C26;
+            }
+        }
+        .command-list {
+            padding: 0px 6px;
+            background-color: $b0-t;
+            .command-entry {
+                padding: 2px 0px;
+                &:focus {
+                    background-color: #67566A;
+                    box-shadow: unset;
+                }
+            }
+        }
+    }
+}

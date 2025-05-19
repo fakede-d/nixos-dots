@@ -1,0 +1,247 @@
+.workspaces button {
+  background-color: transparent;
+  color: #eee;
+  padding: 2px 4px; }
+  .workspaces button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #efefef; }
+
+.workspaces .focused {
+  background-color: #B4BEFE;
+  color: #151822; }
+
+* {
+  font-family: monospace;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px; }
+
+button {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  background-color: unset;
+  background: unset;
+  min-height: 0px; }
+
+label {
+  padding-top: 2px; }
+
+.bar {
+  background-color: rgba(2, 2, 3, 0.5); }
+  .bar box {
+    padding: 0px;
+    margin: 0px;
+    min-height: 24px; }
+
+.client-title {
+  margin-left: 1em;
+  color: #888; }
+
+.notification-overlay {
+  padding-bottom: 4px; }
+
+.notifications {
+  margin: 4px 0px; }
+
+.notification {
+  background: #11111b;
+  opacity: 0;
+  min-height: 100px;
+  min-width: 500px; }
+  .notification .content .text {
+    padding: 16px 0px 16px 24px; }
+    .notification .content .text .title {
+      font-size: 1.2em;
+      font-weight: bold; }
+    .notification .content .text .body {
+      font-size: 1.1em;
+      color: #ddd; }
+  .notification .content .icon {
+    min-width: 68px;
+    min-height: 68px;
+    margin-right: 20px;
+    margin-left: 12px; }
+  .notification .content .icon image {
+    font-size: 58px;
+    min-width: 68px;
+    min-height: 68px; }
+  .notification .content .icon box {
+    margin-left: 0px;
+    min-width: 68px;
+    min-height: 68px;
+    border-radius: 2px; }
+  .notification .urgency-indicator {
+    background-color: white;
+    min-width: 4px; }
+  .notification.low .urgency-indicator {
+    background-color: #B4BEFE; }
+  .notification.normal .urgency-indicator {
+    background-color: #A4E09F; }
+  .notification.critical .urgency-indicator {
+    background-color: #F08080; }
+  .notification.enter2 {
+    opacity: 1; }
+  .notification.leave {
+    opacity: 0; }
+
+.hider.low {
+  background: linear-gradient(90deg, transparent 0%, transparent 50%, #B4BEFE 50%, #B4BEFE 100%);
+  background-size: 200% 100%;
+  background-position: 200% 0;
+  transition: background-position 0.3s cubic-bezier(0.15, 0.79, 0, 1); }
+  .hider.low.enter {
+    background-position: 100% 0; }
+  .hider.low.enter2 {
+    background-position: 0% 0; }
+  .hider.low.leave {
+    background-position: 100% 0; }
+  .hider.low.leave2 {
+    background-position: 200% 0; }
+
+.hider.normal {
+  background: linear-gradient(90deg, transparent 0%, transparent 50%, #A4E09F 50%, #A4E09F 100%);
+  background-size: 200% 100%;
+  background-position: 200% 0;
+  transition: background-position 0.3s cubic-bezier(0.15, 0.79, 0, 1); }
+  .hider.normal.enter {
+    background-position: 100% 0; }
+  .hider.normal.enter2 {
+    background-position: 0% 0; }
+  .hider.normal.leave {
+    background-position: 100% 0; }
+  .hider.normal.leave2 {
+    background-position: 200% 0; }
+
+.hider.critical {
+  background: linear-gradient(90deg, transparent 0%, transparent 50%, #F08080 50%, #F08080 100%);
+  background-size: 200% 100%;
+  background-position: 200% 0;
+  transition: background-position 0.3s cubic-bezier(0.15, 0.79, 0, 1); }
+  .hider.critical.enter {
+    background-position: 100% 0; }
+  .hider.critical.enter2 {
+    background-position: 0% 0; }
+  .hider.critical.leave {
+    background-position: 100% 0; }
+  .hider.critical.leave2 {
+    background-position: 200% 0; }
+
+.actions .action-button {
+  margin: 0 0.4em;
+  margin-top: 0.8em; }
+
+.actions .action-button:first-child {
+  margin-left: 0; }
+
+.actions .action-button:last-child {
+  margin-right: 0; }
+
+.separator {
+  min-width: 8px;
+  min-height: 5px; }
+
+.notification image {
+  color: #fff;
+  margin-left: 1em; }
+
+.battery .low {
+  color: #E685A1; }
+
+.battery .high {
+  color: #B4BEFE; }
+
+.audio-button {
+  color: #B4BEFE;
+  margin: 0px 6px; }
+
+.clock {
+  margin-right: 6px; }
+
+progress, highlight {
+  background-color: aqua;
+  min-height: 8px; }
+
+.caps {
+  margin: 0px 5px;
+  padding: 0px 5px; }
+
+.caps.caps-on {
+  background-color: #E685A1;
+  color: #000; }
+
+.sink-selector {
+  margin: 0px 4px; }
+  .sink-selector .sink-item {
+    border-radius: 8px;
+    margin: 2px 0px;
+    padding: 2px 6px; }
+    .sink-selector .sink-item .sink-icon {
+      margin-right: 8px; }
+  .sink-selector .volume-slider-box {
+    margin: 6px 6px; }
+    .sink-selector .volume-slider-box .volume-icon {
+      margin-right: 8px; }
+    .sink-selector .volume-slider-box .volume-slider {
+      min-width: 100px;
+      margin: 8px 0px; }
+      .sink-selector .volume-slider-box .volume-slider trough {
+        border-radius: 8px;
+        min-height: 5px; }
+        .sink-selector .volume-slider-box .volume-slider trough highlight,
+        .sink-selector .volume-slider-box .volume-slider trough progress {
+          border-radius: 8px; }
+      .sink-selector .volume-slider-box .volume-slider slider {
+        min-width: 5px;
+        min-height: 5px; }
+
+.app-mixer {
+  min-width: 350px;
+  margin: 8px; }
+  .app-mixer .mixer-item.horizontal .mixer-content {
+    margin: 0px 16px; }
+    .app-mixer .mixer-item.horizontal .mixer-content .mixer-slider {
+      min-width: 100px;
+      margin: 8px 0px; }
+      .app-mixer .mixer-item.horizontal .mixer-content .mixer-slider trough {
+        border-radius: 8px;
+        min-height: 5px; }
+        .app-mixer .mixer-item.horizontal .mixer-content .mixer-slider trough highlight,
+        .app-mixer .mixer-item.horizontal .mixer-content .mixer-slider trough progress {
+          border-radius: 8px; }
+      .app-mixer .mixer-item.horizontal .mixer-content .mixer-slider slider {
+        min-width: 5px;
+        min-height: 5px; }
+  .app-mixer .mixer-item.horizontal .mixer-percentage {
+    min-width: 46px; }
+
+.command-runner .menu {
+  min-width: 400px; }
+  .command-runner .menu .command-runner-search {
+    min-height: 24px; }
+    .command-runner .menu .command-runner-search .prefix {
+      margin-right: 2px; }
+    .command-runner .menu .command-runner-search entry {
+      all: unset;
+      border-radius: 0px; }
+  .command-runner .menu .command-list {
+    padding: 0px 6px;
+    background-color: rgba(2, 2, 3, 0.5); }
+    .command-runner .menu .command-list .command-entry {
+      padding: 2px 0px; }
+      .command-runner .menu .command-list .command-entry:focus {
+        background-color: #67566A;
+        box-shadow: unset; }
+
+.options .options-button {
+  background-color: #B4BEFE;
+  color: #151822;
+  padding: 2px 5px 0px; }
+
+.options button {
+  padding: 0px 5px;
+  margin: 0px; }
+
+.bar-tray {
+  margin: 1px 5px; }

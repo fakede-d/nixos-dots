@@ -1,0 +1,2 @@
+#!/bin/sh
+sass --watch --no-source-map ~/nixos/modules/home-manager-modules/graphical/hyprland/themes/comic/waybar/scss/style.scss ~/nixos/modules/home-manager-modules/graphical/hyprland/themes/comic/waybar/style.css

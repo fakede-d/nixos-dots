@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# swayidle -w timeout 30 "systemctl suspend" &
+# swaylock -c000000
+
+# kill %%
+
+systemctl suspend
+
+# hyprlock
