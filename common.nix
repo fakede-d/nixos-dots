@@ -13,8 +13,8 @@
     bluez
     dict
     eww
-    gnome.dconf-editor # to find gnome keybinds
-    gnome.gnome-tweaks
+    pkgs.dconf-editor # to find gnome keybinds
+    pkgs.gnome-tweaks
     gnome.nautilus
     gnome.zenity
     jq # JSON parsing
