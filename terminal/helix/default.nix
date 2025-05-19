@@ -3,7 +3,7 @@
   # test if language is supported with e.g. `hx --health python`
   home.packages = with pkgs; [
     # github copilot
-#    inputs.helix-gpt.packages.${pkgs.system}.default
+    inputs.helix-gpt.packages.${pkgs.system}.default or null
     # cpp dependencies
     clang-tools
     lldb
