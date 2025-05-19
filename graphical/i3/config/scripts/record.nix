@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     # dependencies
-    ffmpeg_5-full
+    ffmpeg-full
     slop
     xorg.libxcb
     # source: https://ronamosa.io/docs/archive/2017-07-10-i3wm-Block-Status-Screen/
