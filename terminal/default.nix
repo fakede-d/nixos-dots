@@ -5,7 +5,7 @@
     ./kitty
     ./starship
     ./nvim
-    ./helix
+  #  ./helix
     ./broot
     ./wezterm
     ./tmux
