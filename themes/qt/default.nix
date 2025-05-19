@@ -4,7 +4,7 @@
     libsForQt5.qtstyleplugin-kvantum
     (catppuccin-kvantum.override {
       accent = "mauve";
-      variant = "Mocha";
+      variant = "mocha";
     })
   ];
   home.sessionVariables = {
