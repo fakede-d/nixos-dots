@@ -1,7 +1,7 @@
 { pkgs, config, inputs, ... }:
 {
   home.packages = with pkgs; [
-    inputs.dev-templates-nix.packages.${pkgs.system}.default
+#    inputs.dev-templates-nix.packages.${pkgs.system}.default
     rm-improved
     fzf
   ];
