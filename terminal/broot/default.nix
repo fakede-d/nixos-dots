@@ -1,8 +1,7 @@
 {lib, pkgs, ...}:
 {
   programs.broot = {
-    enable = true;
-    enableZshIntegration = true;
+    enable = true
     settings = {
       verbs = [
         {
