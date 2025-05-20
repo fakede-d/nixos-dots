@@ -1,7 +1,7 @@
 {lib, pkgs, ...}:
 {
   programs.broot = {
-    enable = true
+    enable = true;
     settings = {
       verbs = [
         {
