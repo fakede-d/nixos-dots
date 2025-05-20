@@ -30,8 +30,11 @@
 
     # FONTS
     minecraftia
-    fira-code
-    nerdfonts
+    #fira-code
+    #nerdfonts
+    nerd-fonts.fira-code
+    nerd-fonts.jetbrains-mono
+    nerd-fonts._0xproto
 
     # ICONS
     papirus-icon-theme
