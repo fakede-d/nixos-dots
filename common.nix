@@ -31,7 +31,7 @@
     # FONTS
     minecraftia
     fira-code
-    nerd-fonts
+    nerdfonts
 
     # ICONS
     papirus-icon-theme
