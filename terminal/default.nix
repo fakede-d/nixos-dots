@@ -1,7 +1,7 @@
 { pkgs, config, ... }:
 {
   imports = [
-    ./zsh
+   # ./zsh
     ./kitty
     ./starship
     ./nvim
