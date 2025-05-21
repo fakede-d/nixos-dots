@@ -16,7 +16,7 @@
     hyprland = {
       hyprland = ./graphical/hyprland/default.nix;
       keybindsQwerty = ./graphical/hyprland/config/keybinds.nix;
-      monitors = ./graphical/hyprland/config/monitors.nix;
+     # monitors = ./graphical/hyprland/config/monitors.nix;
       themes = {
         comic = ./graphical/hyprland/themes/comic;
         poeisis = ./graphical/hyprland/themes/poeisis;
