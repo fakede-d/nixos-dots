@@ -92,9 +92,9 @@
 
     # other
     # floating windows
-    windowrule=float,^(nm-connection-editor)$
-    windowrule=float,^(copyq)$
-    windowrule=float,^(zenity)$
+    windowrulev2=float,^(nm-connection-editor)$
+    windowrulev2=float,^(copyq)$
+    windowrulev2=float,^(zenity)$
     windowrule=float,title:^(New Text Note — Okular)$
     windowrule=float,title:^(org.gnome.Nautilus New Folder)$
     # firefox sharing indicator
